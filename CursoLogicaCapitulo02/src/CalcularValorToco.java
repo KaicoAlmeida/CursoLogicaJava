@@ -10,7 +10,7 @@ public class CalcularValorToco {
 			System.out.print("Digite o valor do produto: ");
 			Double valorProduto = scanner.nextDouble();
 			
-			System.out.print("Digite quantidade passada pelo cliente: ");
+			System.out.print("Digite quantia paga pelo cliente: ");
 			Double quantiaPaga = scanner.nextDouble();
 			
 			Double resultado = quantiaPaga - valorProduto;
